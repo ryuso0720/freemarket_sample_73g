@@ -1,6 +1,5 @@
 # README
 ![トップページ](https://user-images.githubusercontent.com/62546632/81910490-01f51d80-9607-11ea-9a1a-a94e09952d99.png)
-
 # このアプリについて
 ・メルカリクローンのフリーマーケットアプリ
 <br>
@@ -144,7 +143,7 @@ URL:<a href="http://18.180.239.6/">http://18.180.239.6/</a>
 |city|string|null: false|
 |block|string|-|
 |building|string|-|
-## Association
+### Association
 - belongs_to :user
 - belongs_to_active_hash :prefecture
 
@@ -154,14 +153,14 @@ URL:<a href="http://18.180.239.6/">http://18.180.239.6/</a>
 |user|references|null: false, foreign_key: true|
 |customer_id|string|null: false|
 |card_id|string|null: false|
-## Association
+### Association
 - belongs_to :user
 
 ## itemsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|seller_id|integer|foreign_key: true, foreign_key: true|
-|name|string|null: false, unique: true, index:true|
+|seller_id|integer|foreign_key: true|
+|name||string|null: false, unique: true, index:true|
 |category|references|null: false, foreign_key: true|
 |brand|string||
 |price|integer|null: false|
@@ -172,10 +171,11 @@ URL:<a href="http://18.180.239.6/">http://18.180.239.6/</a>
 |delivery_day|string|null: false|
 |size|string|null: false|
 |buyer_id|integer|foreign_key: true|
-## Association
+### Association
 - has_many: comment
 - has_many: likes, dependent: :destroy
 - has_many: images, dependent: :destroy
+- belongs_to_active_hash :prefecture
 - belongs_to :buyer, class_name: "User"
 - belongs_to :seller, class_name: "User"
 - belongs_to :category
