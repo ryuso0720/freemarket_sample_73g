@@ -58,7 +58,7 @@ README編集
 ## addressesテーブル
 |Column|Type|Options|
 |------|----|-------|
-||user|references|null: false, foreign_key: true|
+|user|references|null: false, foreign_key: true|
 |postal_code|string|null: false|
 |prefecture|string|null: false|
 |city|string|null: false|
@@ -71,7 +71,7 @@ README編集
 ## cardsテーブル(gem 'payjp'を使用)
 |Column|Type|Options|
 |------|----|-------|
-||user|references|null: false, foreign_key: true|
+|user|references|null: false, foreign_key: true|
 |customer_id|string|null: false|
 |card_id|string|null: false|
 ## Association
