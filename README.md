@@ -112,7 +112,8 @@ URL:<a href="http://18.180.239.6/">http://18.180.239.6/</a>
 ・パスワード：1111111
 
 # 73期_Gチーム_フリーマーケットアプリ DB設計
-## ER
+## ER図
+![フリマアプリ ER 図 のコピー - データベース ER 図 (1)](https://user-images.githubusercontent.com/62546632/81934613-34644200-962a-11ea-9cee-8b74d386eb7f.png)
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
