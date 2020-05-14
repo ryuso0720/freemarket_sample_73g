@@ -27,7 +27,8 @@ README編集
 <br>
 商品カテゴリー機能_マークアップ&サーバーサイド
 
-
+<a href="https://github.com/4145bjc"><h2>4145bjc</h2></a>
+<h3>実装内容</h3>
 
 # freemarket_sample_73g DB設計
 
@@ -57,7 +58,7 @@ README編集
 ## addressesテーブル
 |Column|Type|Options|
 |------|----|-------|
-||user_id|references|null: false, foreign_key: true|
+||user|references|null: false, foreign_key: true|
 |postal_code|string|null: false|
 |prefecture|string|null: false|
 |city|string|null: false|
@@ -70,7 +71,7 @@ README編集
 ## cardsテーブル(gem 'payjp'を使用)
 |Column|Type|Options|
 |------|----|-------|
-||user_id|references|null: false, foreign_key: true|
+||user|references|null: false, foreign_key: true|
 |customer_id|string|null: false|
 |card_id|string|null: false|
 ## Association
