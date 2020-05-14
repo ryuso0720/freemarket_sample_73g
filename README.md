@@ -113,6 +113,7 @@ URL:<a href="http://18.180.239.6/">http://18.180.239.6/</a>
 ・パスワード：1111111
 
 # 73期_Gチーム_フリーマーケットアプリ DB設計
+## ER図
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
@@ -189,7 +190,7 @@ URL:<a href="http://18.180.239.6/">http://18.180.239.6/</a>
 ### Association
 - belongs_to :item
 
-## categoriesテーブル
+## categoriesテーブル(ancestry使用)
 |Column|Type|Options|
 |------|----|-------|
 |name|strig|null: false|
@@ -217,7 +218,7 @@ belongs_to :user
 belongs_to :item
 belongs_to :user
 
-## prefectureモデル
+## prefectureモデル(active_hash使用)
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|
