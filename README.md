@@ -8,7 +8,7 @@
 ・使用Gemや機能、各担当箇所は以下に記載
 
 # 制作メンバー
-<h2>ryuso0720<a href="https://github.com/ryuso0720"></a></h2>
+<a href="https://github.com/ryuso0720"><h2>ryuso0720</h2></a>
 
 # freemarket_sample_73g DB設計
 
