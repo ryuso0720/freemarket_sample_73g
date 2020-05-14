@@ -216,3 +216,8 @@ belongs_to :user
 ### Association
 belongs_to :item
 belongs_to :user
+
+## prefectureモデル
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
