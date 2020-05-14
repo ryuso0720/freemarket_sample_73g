@@ -187,7 +187,7 @@ URL:<a href="http://18.180.239.6/">http://18.180.239.6/</a>
 |Column|Type|Options|
 |------|----|-------|
 |image|strig|null: false|
-|item_id|references|foreign_key: true|
+|item|references|foreign_key: true|
 ### Association
 - belongs_to :item
 
@@ -203,8 +203,8 @@ URL:<a href="http://18.180.239.6/">http://18.180.239.6/</a>
 ## likesテーブル
 |Column|Type|Options|
 |------|----|-------|
-|item_id|references|null: false, foreign_key: true|
-|user_id|references|null: false, foreign_key: true|
+|item|references|null: false, foreign_key: true|
+|user|references|null: false, foreign_key: true|
 ### Association
 belongs_to :item
 belongs_to :user
@@ -213,8 +213,8 @@ belongs_to :user
 |Column|Type|Options|
 |------|----|-------|
 |text|text|null: false|
-|item_id|references|null: false, foreign_key: true|
-|user_id|references|null: false, foreign_key: true|
+|item|references|null: false, foreign_key: true|
+|user|references|null: false, foreign_key: true|
 ### Association
 belongs_to :item
 belongs_to :user
