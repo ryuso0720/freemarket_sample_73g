@@ -1,6 +1,14 @@
 # README
 ![トップページ](https://user-images.githubusercontent.com/62546632/81910490-01f51d80-9607-11ea-9a1a-a94e09952d99.png)
 
+# このアプリについて
+・メルカリクローンのフリーマーケットアプリ
+・TECH CAMP 73期短期メンバー５名にて作成
+・制作期間:2020年　4月21日〜5月13日
+・使用Gemや機能、各担当箇所は以下に記載
+
+# 制作メンバー
+<h2>ryuso0720<a href="https://github.com/ryuso0720"></a></h2>
 
 # freemarket_sample_73g DB設計
 
