@@ -121,7 +121,7 @@ URL:<a href="http://18.180.239.6/">http://18.180.239.6/</a>
 |first_name|string|null: false|
 |family_name_kana|string|null: false|
 |first_name_kana|string|null: false|
-|birthday|date|-|
+|birthday|date||
 |nickname|string|null: false|
 |icon_image|string||
 |email|string|false, unique: true|
@@ -143,8 +143,8 @@ URL:<a href="http://18.180.239.6/">http://18.180.239.6/</a>
 |postal_code|string|null: false|
 |prefecture_id|integer|null: false|
 |city|string|null: false|
-|block|string|-|
-|building|string|-|
+|block|string||
+|building|string||
 ### Association
 - belongs_to :user
 - belongs_to_active_hash :prefecture
